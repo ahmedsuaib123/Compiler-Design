@@ -1,20 +1,36 @@
 #include <iostream>
-#include <string>
-
+#include <fstream>
 using namespace std;
 
-int main()
-{
-    string firstName;
-    string lastName;
+int main() {
+    int n;
+    cout << "Number of students: ";
+    cin >> n;
 
-    cout<<"Enter First Name: ";
-    cin>>firstName;
+    ofstream fout("students.txt");
 
-    cout<<"Enter Last Name: ";
-    cin>>lastName;
+    for (int i = 1; i <= n; i++) {
+        string name;
+        int marks;
+        cout << "Student " << i << " name: ";
+        cin >> name;
+        cout << "Student " << i << " marks: ";
+        cin >> marks;
 
-    cout<<"Full Name = "<<firstName<<" "<<lastName<<endl;
+        fout << name << " " << marks << endl;
+    }
 
+    fout.close();
+
+    ifstream fin("students.txt");
+    string name;
+    int marks;
+
+    cout << "Data read from file: "<<endl;
+    while (fin >> name >> marks) {
+        cout << name << " " << marks << endl;
+    }
+
+    fin.close();
     return 0;
 }
