@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1772811119 source:s:\spring 2025-26\compiler design [v]\lab task\lab 4\task 1\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+

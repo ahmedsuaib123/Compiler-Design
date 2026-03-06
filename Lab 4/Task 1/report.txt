@@ -1,0 +1,12 @@
+Line 1: Variable Declaration
+Line 2: Variable Declaration
+Line 3: Function Declaration
+Line 4: Function Declaration
+Line 5: Invalid
+Line 6: Invalid
+
+Summary:
+Total lines = 6
+Variable Declarations = 2
+Function Declarations = 2
+Invalid = 2
