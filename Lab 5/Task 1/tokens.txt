@@ -1,0 +1,26 @@
+Line 1: int -> Keyword
+Line 1: sum -> Identifier
+Line 1: = -> Operator
+Line 1: a1 -> Identifier
+Line 1: + -> Operator
+Line 1: 25 -> Integer Constant
+Line 1: ; -> Delimiter
+Line 2: float -> Keyword
+Line 2: x -> Identifier
+Line 2: ; -> Delimiter
+Line 3: if -> Keyword
+Line 3: ( -> Delimiter
+Line 3: x -> Identifier
+Line 3: > -> Operator
+Line 3: 0 -> Integer Constant
+Line 3: ) -> Delimiter
+Line 3: return -> Keyword
+Line 3: x -> Identifier
+Line 3: ; -> Delimiter
+
+Summary:
+Keywords = 4
+Identifiers = 5
+Integer Constants = 2
+Operators = 3
+Delimiters = 5
